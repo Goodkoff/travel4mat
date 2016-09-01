@@ -56,8 +56,7 @@ body {
 }
 
 .photo-col {
-    width: 90%;
-    float: right;
+    width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -136,8 +135,7 @@ body {
 }
 
 .news-col {
-    width: 80%;
-    float: left;
+    width: 99%;
 }
 
 .news-list {
