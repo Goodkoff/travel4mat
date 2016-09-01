@@ -6,28 +6,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,800,300italic,400italic,600italic,700italic,800italic'
           rel='stylesheet' type='text/css'>
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.sticky-kit.js"></script>
 </head>
 <body>
-
-<div class="container clearfix" data-sticky_parent>
-    <header class="header" data-sticky_column>
-        <a href="#"><img src="img/logo2.png"></a>
-        <ul class="list clearfix">
-            <li class="item"><a href="#">страны</a></li>
-            </a>
-            <li class="item"><a href="#">новости</a></li>
-            </a>
-            <li class="item"><a href="#">выгода</a></li>
-            </a>
-            <li class="item"><a href="#">f.a.q.</a></li>
-            </a>
-            <li class="item"><a href="#">о пректе</a></li>
-            </a>
-        </ul>
-    </header>
-
+<div class="container clearfix">
     <section class="home clearfix">
         <div class="photo">
             <div class="photo-col clearfix">
@@ -77,7 +60,21 @@
             </div>
         </div>
 
-
+        <header class="header">
+            <a href="#"><img src="img/logo2.png"></a>
+            <ul class="list clearfix">
+                <li class="item"><a href="#">страны</a></li>
+                </a>
+                <li class="item"><a href="#">новости</a></li>
+                </a>
+                <li class="item"><a href="#">выгода</a></li>
+                </a>
+                <li class="item"><a href="#">f.a.q.</a></li>
+                </a>
+                <li class="item"><a href="#">о пректе</a></li>
+                </a>
+            </ul>
+        </header>
 
         <div class="news">
             <div class="news-col">
@@ -89,12 +86,40 @@
                     </div>
                 </div>
 
+                <div class="news-list clearfix">
+                    <ul>
+                        <li>
+                            <a href="#" class="news-list-title">Кхмерский храмовый комплекс Ват Пху в Чампасаке</a>
+                        </li>
+                        <li>
+                            <a href="#" class="news-list-title">Вид с холма в центре Луанг-Прабанга и храм Пхуси</a>
+                        </li>
+                        <li>
+                            <a href="#" class="news-list-title">Поездка к водопаду Куанг Си возле Луанг Прабанга</a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="block">
                     <a href="#"><img src="img/news-vietnam-1.jpg"></a>
                     <div class="post-info">
                         <a class="p-category" href="#"><span itemprop="articleSection">Места</span></a>
                         <p>Парфюмерная пагода</p>
                     </div>
+                </div>
+
+                <div class="news-list clearfix second-list">
+                    <ul>
+                        <li>
+                            <a href="#" class="news-list-title">Что едят местные в столице Камбоджи</a>
+                        </li>
+                        <li>
+                            <a href="#" class="news-list-title">Город Столиц или самый известный храмовый комплекс
+                                Ангкор</a>
+                        </li>
+                        <li>
+                            <a href="#" class="news-list-title">Бедность озерных людей Тонлесапа</a>
+                        </li>
+                    </ul>
                 </div>
 
                 <div class="block">
@@ -114,29 +139,26 @@
     <input type="email" class="form-control" name="email" placeholder="Подписывайся на свежие новости">
     <div class="input-bottom"><img src="img/right-angle-white.png"></div>
 </div>
-
-<div class="container">
-    <div class="footer">
-        <div class="footer-menu clearfix">
-            <ul>
-                <li><a href="#">контакты</a></li>
-                <li><a href="#">рекламодателям</a></li>
-                <li><a href="#">правовая информация</a></li>
-            </ul>
-        </div>
-        <div class="footer-info">
-            <p>E-mail: kompas@gmail.com</p>
-            <p>© 2016. Kompas. При использовании материалов kompas.com.ua прямая активная гиперссылка на страницу,
-                содержащую оригинал
-                публикации, обязательна. kompas.com.ua не несет ответственность за содержание рекламных материалов.</p>
-        </div>
-
+<div class="footer">
+    <div class="footer-menu clearfix">
+        <ul>
+            <li><a href="#">контакты</a></li>
+            <li><a href="#">рекламодателям</a></li>
+            <li><a href="#">правовая информация</a></li>
+        </ul>
     </div>
+    <div class="footer-info">
+        <p>E-mail: kompas@gmail.com</p>
+        <p>© 2016. Kompas. При использовании материалов kompas.com.ua прямая активная гиперссылка на страницу,
+            содержащую оригинал
+            публикации, обязательна. kompas.com.ua не несет ответственность за содержание рекламных материалов.</p>
+    </div>
+
 </div>
+
 
 <script type="text/javascript">
     $(".header").stick_in_parent();
-    $(".header").stick_in_parent(options);
 </script>
 </body>
 </html>
