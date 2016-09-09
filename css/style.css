@@ -23,6 +23,11 @@ body {
     margin: 0 auto;
 }
 
+.container-small {
+    width: 900px;
+    margin: 0 auto;
+}
+
 .header {
     position: relative;
     text-align: center;
@@ -296,6 +301,8 @@ body {
 
 }
 
+/* FOOTER */
+
 .footer {
     height: 150px;
     background: #f6f6f6;
@@ -339,6 +346,8 @@ body {
     margin: 0 auto;
 
 }
+
+/* HEADER ON THE TOP */
 
 .header-wrapper {
     position: fixed;
@@ -397,6 +406,7 @@ ul.header-nav li a:hover {
     position: relative;
 }
 
+/* COUNTRIES */
 .countries {
     width: 100%;
     margin: 0 auto;
@@ -424,6 +434,75 @@ ul.header-nav li a:hover {
     display: block;
 }
 
+/* POST CONTENT*/
+
+.content {
+    padding-top: 100px;
+}
+.content h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+}
+.content h2 {
+    font-weight: 600;
+    text-align: center;
+}
+.content .content-description p {
+    padding: 0 80px;
+    text-align: justify;
+}
+.content-info {
+    height: 50px;
+    border: #cfcfcf 1px solid;
+    line-height: 50px;
+    background: #fff;
+    z-index: 10;
+}
+
+.content-info p {
+    margin: 0 auto;
+    color: #bfbfbf;
+}
+
+.content-info a {
+    margin: 0 auto;
+    color: #bfbfbf;
+}
+
+.social-link {
+    width: 50px;
+    height: 49px;
+    border-right: 1px solid #cfcfcf;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.social-link:hover {
+    background-color: black;
+}
+.social-link img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+.content-date {
+    width: 150px;
+    display: block;
+    float: left;
+    text-align: center;
+    height: 49px;
+}
+
+.content-author {
+    width: 250px;
+    display: block;
+    float: left;
+    text-align: center;
+    height: 49px;
+}
 /*
 @media  all and (max-width: 900px){
    .photo {
